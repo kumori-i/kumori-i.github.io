@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    background-color: black; /*#4e4e4e*/
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left {
+    left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.right {
+    right: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.centered {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.terminal {
+    color: white;
+    position: relative;
+    margin: 1%;
+}
+.f {
+    position: relative;
+    display: inline;
+}
+.i {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    caret-shape: block;
+    caret-color: white;
+    /* width: 90%; */
+}
+input {
+    caret-shape: block;
+}
+.jpn-text {
+    position: relative;
+    margin-left: 20%;
+    font-size: 40px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.img-fmt {
+    position: relative;
+    display: block;
+    margin: auto;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: black;
+    height: 90%;
 }

@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import InputEn from "./components/InputEn";
 
 function App() {
+  var curr = new Date();
+  var fl =
+    "Last login: " +
+    curr.toLocaleDateString() +
+    " " +
+    curr.toLocaleTimeString() +
+    " on ttys000";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div className="terminal">
+          {fl}
+          <br />
+          <br />
+          Hello!
+          <br />
+          Welcome to my website!
+          <br />
+          Here you can find information regarding my previous projects or about
+          me.
+          <br />
+          To start type -h or -help to view potential commands
+          <br />
+          <br />
+          <InputEn />
+        </div>
+        <Routes>
+          <Route path="/" exact />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
