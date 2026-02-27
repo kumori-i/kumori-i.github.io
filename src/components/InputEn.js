@@ -122,61 +122,62 @@ function InputCheck({ input }) {
       <>
         ------------------------------------------------------------------------------------------------------------------------------------------------------------
         <br />
-        <b> '24 Y86 Assembly Circuit </b>
+        <b> CSCE 482 Capstone: Collegiate Scouting Platform </b>
         <br />
-        Description: Developed a basic y86 circuit to run programs for simple
-        mathematical calculations and recurrsive functions.
+        Description: Built a full-stack scouting platform with React, Express,
+        Supabase, JWT/Google OAuth auth, and provider-driven AI generation
+        support.
         <br />
         <> Repo: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-y86-assembly-circuit-24"
+          href="https://github.com/kumori-i/team-collegiate-csce482-capstone"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-y86-assembly-circuit-24
+          team-collegiate-csce482-capstone
         </a>
         <br />
         <br />
         <br />
-        <b> '24 Datathon Webscraping Challenge </b>
+        <b> Discord Bots Workspace </b>
         <br />
-        Description: Developed a web scraper using Selenium and BeautifulSoup to
-        solve 4 levels of challenges for hidden information.
+        Description: Built a modular Discord bot workspace. Current bot supports
+        RSS ingestion and Ollama-based news summarization.
         <br />
         <> Repo: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-datathon-webscraping-24"
+          href="https://github.com/kumori-i/discord-server"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-datathon-webscraping-24
+          discord-server
         </a>
         <br />
         <br />
         <br />
-        <b> '23 Datathon Bots Race </b>
+        <b> GiveCoin DApp </b>
         <br />
-        Description: Developed an efficient algorithm for a bot to follow a line
-        based on input sensors.
+        Description: Developed a blockchain-style donation/token DApp using
+        Truffle/Ganache with a React frontend and smart contracts.
         <br />
         <> Repo: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-datathon-bots-race-23"
+          href="https://github.com/kumori-i/givecoin-dapp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-datathon-bots-race-23
+          givecoin-dapp
         </a>
         <br />
         <br />
         <br />
         <b> The Myth of Oakrylon </b>
         <br />
-        Description: A basic development of a 2D tile based game. Utilizes Lua &
-        Love and basic 2 dimensional movement.
+        Description: 2D tile-based game prototype built with Lua and LÖVE,
+        including state-driven gameplay and custom map assets.
         <br />
         <> Repo: </>
         <a

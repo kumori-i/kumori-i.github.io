@@ -122,61 +122,64 @@ function InputCheck({ input }) {
       <>
         ------------------------------------------------------------------------------------------------------------------------------------------------------------
         <br />
-        <b> '24 Y86 Assembly Circuit </b>
+        <b> CSCE 482 Capstone: Collegiate Scouting Platform </b>
         <br />
-        せつめい:
-        かんたんなスー学系さんと再帰還スーのプログラむをじっこするタヌの基本的な「y86」かいろをかいはつしました。
+        せつめい: React/Express/Supabase をつかって、JWT/Google OAuth と AI
+        せいせいきのうをもつフルスタック・スカウティング
+        プラットフォームをかいはつしました。
         <br />
         <> れぽ: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-y86-assembly-circuit-24"
+          href="https://github.com/kumori-i/team-collegiate-csce482-capstone"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-y86-assembly-circuit-24
+          team-collegiate-csce482-capstone
         </a>
         <br />
         <br />
         <br />
-        <b> '24 Datathon Webscraping Challenge </b>
+        <b> Discord Bots Workspace </b>
         <br />
-        せつめい: 「Selenium」と「Beautiful
-        Soup」をしよーしてさいとすくれいぱをかいはつしこもされたじょーほーにたいする４のれべるのかだいをかいけつしもした。
+        せつめい: もじゅーるかされた Discord bot
+        かいはつワークスペース。げんざいは RSS + Ollama によるニュースようやく
+        bot をうんようしています。
         <br />
         <> れぽ: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-datathon-webscraping-24"
+          href="https://github.com/kumori-i/discord-server"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-datathon-webscraping-24
+          discord-server
         </a>
         <br />
         <br />
         <br />
-        <b> '23 Datathon Bots Race </b>
+        <b> GiveCoin DApp </b>
         <br />
-        せつめい: にゅーかせんせーに
-        ニュー力センサーに基づいて、ぼっと画線を辿るためのこー列的なアルゴれづむを開発。
+        せつめい: Truffle/Ganache と React をつかったブロックチェーンけいの
+        donation/token DApp を かいはつしました。
         <br />
         <> れぽ: </>
         <a
           style={{ color: "white" }}
-          href="https://github.com/kumori-i/tamu-datathon-bots-race-23"
+          href="https://github.com/kumori-i/givecoin-dapp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tamu-datathon-bots-race-23
+          givecoin-dapp
         </a>
         <br />
         <br />
         <br />
         <b> The Myth of Oakrylon </b>
         <br />
-        せつめい:
-        ２D　たいるべーすのげーむのきほんかいはつ。「Lua」とらぶおよびきほんてきな２じげんのうごきをかつすよーします。
+        せつめい: Lua + LÖVE をつかった 2D
+        たいるべーすげーむのぷろとたいぷ。すてーとかんりと
+        まっぷしさんをふくみます。
         <br />
         <> れぽ: </>
         <a
