@@ -203,7 +203,7 @@ function InputCheck({ input }) {
         ------------------------------------------------------------------------------------------------------------------------------------------------------------
         <br />
         <br />
-        Hi there! I'm currently a junior at Texas A&M University, pursuing a
+        Hi there! I'm currently a senior at Texas A&M University, pursuing a
         degree in Computer Science (WHOOP!). When I’m not coding or diving into
         a new software project, you’ll likely find me playing Valorant, watching
         my favorite anime—Sword Art Online—or hanging out with friends.
